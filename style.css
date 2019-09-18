@@ -68,6 +68,9 @@ header * {
 .container {
     /* margin-top: 100px;
     margin-bottom: 200px; */
+    margin: 0 auto;
+    padding: 0;
+
 }
 ul.filters{
     display: block;
@@ -79,6 +82,11 @@ ul.filters{
 ul.filters > li{
     list-style: none;
     display: inline-block;
+    border-top: #2b90d9;
+    border-bottom: #2b90d9;
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    
 }
 
 ul.filters > li > a{
@@ -86,15 +94,18 @@ ul.filters > li > a{
     color: #434e5e;
     text-decoration: none;
     padding: 5px 20px;
+    
 }
 
 ul.filters > li > a:hover{
     background-color: #e6e9ed;
+    
 }
 
 ul.filters > li.active > a{
     color: #fff;
     background-color: #2b90d9;
+    
 }
 
 .card{
@@ -175,7 +186,7 @@ h4.title{
 
 .card-btn:hover{
     background-color: #2b90d9;
-    color: #fff;
+    color: white;
 }
 
 /* Skill tags */
@@ -187,8 +198,8 @@ h4.title{
 
 .skill-tag {
     /* background-color: #eceff5; */
-    background-color: #2b90d9;
-    color: white;
+    background-color: #cccfc5;
+    color: black;
     display: inline-block;
     padding: 4px 8px;
   }

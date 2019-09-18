@@ -17,7 +17,8 @@
         </div>
     </header>
  <!-- Services Section -->
- <section class="page-section" id="services" style="background: #111; margin: 0 auto; color: white;">
+ <!-- color was #111 -->
+ <section class="page-section" id="services" style="background: #2b90d9; margin: 0 auto; color: white;"> 
         <div class="container">
         <h5 style="color:white; text-align: center;font-size: 4.5rem;">Work Experience</h5>
           <div class="row justify-content-center">
@@ -59,6 +60,7 @@
           </div>
         </div>
       </section>
+    <section id="projects" style="background: white;">
     <div class="container">
         <!-- FIXME font  -->
         <h5 style="color:black; text-align: center;font-size: 4.5rem;">Projects</h5> 
@@ -70,14 +72,58 @@
                     <li data-filter=".c"><a href="#!">C</a></li>
                     <li data-filter=".front-end"><a href="#!">Front-end</a></li>
                     <li data-filter=".sql"><a href="#!">Sql</a></li>
-                    <li data-filter=".verilog"><a href="#!">verilog</a></li>
+                    <li data-filter=".verilog"><a href="#!">Verilog</a></li>
                     <li data-filter=".electronics"><a href="#!">Electronics</a></li>
                     <li data-filter=".other"><a href="#!">Other</a></li>
                 </ul>
                 <div class="projects">
                     <div class="row">
+                        <!-- Project: Csulb room finder -->
+                        <div class="col-lg-4 item python sql">
+                                <div class="card">
+                                    <div class="card-head">
+                                        <img src="image.jpg" alt="" class="img-fluid card-img">
+                                        <div class="card-overlay"><h2>Room Finder</h2></div>
+                                        <div class="card-hover">
+                                            <h2>Room Finder</h2>
+                                            <p>Helps students find empty rooms at csulb to study or lounge in between classes.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h4 class="title"><a target="_blank" href="csulb-room-finder-demo.gif">Web app</a></h4>
+                                        <div class="skill-tags">
+                                                <div class="skill-tag">Python</div>
+                                                <div class="skill-tag">SQL</div>
+                                        </div>
+                                            <a href="https://csulb-room-finder-alpha.rosswelltiongco.repl.run" target="_blank" class="btn btn-lg card-btn"><i class="fas fa-play"></i> Demo</a>
+                                            <a href="https://github.com/rosswelltiongco/CSULB_Room_Finder" target="_blank" class="btn btn-lg card-btn"><i class="fas fa-code"></i> Source</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- Project: Csulb room search -->
+                        <div class="col-lg-4 item python sql">
+                                <div class="card">
+                                    <div class="card-head">
+                                        <img src="image.jpg" alt="" class="img-fluid card-img">
+                                        <div class="card-overlay"><h2>CSULB Class Search</h2></div>
+                                        <div class="card-hover">
+                                            <h2>CSULB Class Search</h2>
+                                            <p>Lets you search csulb classes with realtime filters</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h4 class="title">Web app</h4>
+                                        <div class="skill-tags">
+                                                <div class="skill-tag">Python</div>
+                                                <div class="skill-tag">front-end</div>
+                                        </div>
+                                            <a href="#https://jsfiddle.net/bd2g3p4x/2/show" class="btn btn-lg card-btn"><i class="fas fa-play"></i> Demo</a>
+                                            <a href="#https://github.com/rosswelltiongco/CSULB_Schedule" class="btn btn-lg card-btn"><i class="fas fa-code"></i> Source</a>
+                                    </div>
+                                </div>
+                        </div>
                         <!-- Project: Template -->
-                        <div class="col-lg-4 item html javascript other">
+                        <div class="col-lg-4 item none">
                                 <div class="card">
                                     <div class="card-head">
                                         <img src="image.jpg" alt="" class="img-fluid card-img">
@@ -88,14 +134,13 @@
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
-                                        <!-- <h4 class="title">HTML</h4> -->
+                                        <h4 class="title">HTML</h4>
                                         <div class="skill-tags">
                                                 <div class="skill-tag">Python</div>
                                                 <div class="skill-tag">SQL</div>
                                         </div>
-                                            <a href="#!" class="btn btn-lg card-btn"><i class="fas fa-play"></i> Code</a>
+                                            <a href="#!" class="btn btn-lg card-btn"><i class="fas fa-play"></i> Demo</a>
                                             <a href="#!" class="btn btn-lg card-btn"><i class="fas fa-code"></i> Source</a>
-                                            <!-- <p class="buttons text-center"><a href="#" class="btn btn-outline-primary"><i class="fa fa-play"></i>Demo</a><a href="#"  class="btn btn-outline-primary"><i class="fa fa-code"></i>src</a></p> -->
                                     </div>
                                 </div>
                         </div>
@@ -104,7 +149,7 @@
             </div>
         </div>
     </div>
-
+</section>
     
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="isotope.min.js"></script>
