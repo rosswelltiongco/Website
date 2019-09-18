@@ -6,24 +6,72 @@
     <title>Rosswell Tiongco</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.10.2-web/css/all.css"
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.10.2-web/css/all.css">
 
 </head>
 <body>
     <header>
-        <h1>Rosswell Tiongco</h1>
-        <p>Hi! I'm a student at CSULB</p>
+        <div id="about" style="background: #000; width: 35%; margin: 0 auto;">    
+            <h2>Rosswell Tiongco</h1>
+            <p>Hi! I'm a student at CSULB</p>
+        </div>
     </header>
-
-    <p></br></br></br></p>
+ <!-- Services Section -->
+ <section class="page-section" id="services" style="background: #111; margin: 0 auto; color: white;">
+        <div class="container">
+        <h5 style="color:white; text-align: center;font-size: 4.5rem;">Work Experience</h5>
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 text-center">
+              <div class="mt-5">
+                <a href="https://www.raytheon.com" target="_blank"><img src="raytheon-logo.png" alt="" class="img-fluid"></a>
+                <h3 class="h4 mb-2">Software Engineering Intern</h3>
+                <h6>May 2019 - Present</h6>
+                <p class="text-left description">
+                    </br>+ Built tool to automate documentation
+                    </br>+ Converted old Microsoft Access Server to C# Webform to add, modify, search, and delete records
+                  </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 text-center">
+              <div class="mt-5">
+                    <a href="https://www.filtec.com" target="_blank"><img src="filtec-logo.png" alt="" class="img-fluid"></a>
+                <h3 class="h4 mb-2">Software Engineering Intern</h3>
+                <h6>May 2018 - August 2018</h6>
+                <p class="text-left description">
+                    </br>+ Wrote python tool to parse and query thousands of console log entries into a sqlite database
+                    </br>+ Implemented full stack flask application to continuously monitor in house test machines
+                    </br>+ Tested and documented software builds to ensure system and customer requirements are met
+                  </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 text-center">
+              <div class="mt-5">
+                    <a href="https://www.csulb.edu" target="_blank"><img src="csulb-logo.jpg" alt="" class="img-fluid"></a>
+                <h3 class="h4 mb-2">CECS 174 Python Instructor</h3>
+                <h6>Jan 2018 - May 2018</h6>
+                <p class="text-left description">
+                    </br>+ Communicated with students to ensure laboratory objectives are met on time
+                    </br>+ Facilitated students’ learning of Python laboratory projects to resolve programming conceptual issues
+                    </br>+ Evaluated assignments from 80+ students to provide fair assessment
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <div class="container">
-        <div class="row">
+        <!-- FIXME font  -->
+        <h5 style="color:black; text-align: center;font-size: 4.5rem;">Projects</h5> 
+        <div class="row justify-content-center">
             <div class="col-lg-12">
                 <ul class="filters text-center">
                     <li class="active" data-filter="*"><a href="#!">All</a></li>
-                    <li data-filter=".html"><a href="#!">HTML</a></li>
-                    <li data-filter=".css"><a href="#!">CSS</a></li>
-                    <li data-filter=".javascript"><a href="#!">Javascript</a></li>
+                    <li data-filter=".python"><a href="#!">Python</a></li>
+                    <li data-filter=".c"><a href="#!">C</a></li>
+                    <li data-filter=".front-end"><a href="#!">Front-end</a></li>
+                    <li data-filter=".sql"><a href="#!">Sql</a></li>
+                    <li data-filter=".verilog"><a href="#!">verilog</a></li>
+                    <li data-filter=".electronics"><a href="#!">Electronics</a></li>
                     <li data-filter=".other"><a href="#!">Other</a></li>
                 </ul>
                 <div class="projects">
