@@ -1,9 +1,8 @@
 CHECKLIST
 
 1) make fancy typing thing for hello world (name) in different languages (especially cool if theyre ones I know)
-2) parallax scroller X
-3) grid filterer w/ isotope? masonry?
-    a) hide/display elements
+
+2) hide/display elements
 4) fontawesome
 5) button/section transitions
 6) learn how to make it responsive
@@ -13,3 +12,4 @@ CHECKLIST
 
 WORK HISTORY
 1) Learned parallax via https://www.youtube.com/watch?v=6CQ7DYni7Bg
+2) grid filterer w/ isotope? masonry? via https://www.youtube.com/watch?v=nkqmbRvUk-w&t=0s
