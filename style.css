@@ -47,8 +47,8 @@ header::before {
     background-image: url(keyboard.jpg);
     background-size: cover;
     transform-origin: center center 0;
-    transform: none;/*translateZ(-1px) scale(2)*/; 
-    /* FIXME: Uncomment transform for scrolly */
+    transform: translateZ(-1px) scale(2); 
+    /* FIXME: Uncomment transform for scrolly or none */
     z-index: -1;
     min-height: 100vh;
 }
