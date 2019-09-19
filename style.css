@@ -14,7 +14,7 @@ body {
     perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     font-family: "Luna";
     background: #333 url('keyboard_blurry.jpg') no-repeat center center / cover;
@@ -278,4 +278,39 @@ h2 {
     50% {
         top: 80px;
     }
+}
+
+/* Snap scrolling */
+/* Removes double scroll bar */
+html, body {
+  overflow: visible;
+}
+
+.scrollable-containers {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+} 
+
+#projects {
+  height: auto;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  scroll-snap-align: start;
+}
+section:nth-child(1) {
+  /* background: orangered; */
+}
+section:nth-child(2) {
+  /* background: blueviolet; */
+}
+section:nth-child(3) {
+  /* background: red; */
 }
