@@ -3,11 +3,13 @@
 html {
     height: 100%;
     overflow: hidden;
+    font-family: "Roboto Slab", serif;
 }
 
 body {
     color: #fff;
     margin: 0;
+    /* margin-left: -25%; */
     padding: 0;
     perspective: 1px;
     transform-style: preserve-3d;
@@ -209,7 +211,7 @@ h2 {
 
 @media(min-width: 1200px) {
   h1 {
-    font-size: 5rem;
+    font-size: 4.0rem;
   }
 }
 
@@ -231,4 +233,49 @@ h2 {
   h2 {
     font-size: 1.5rem;
   }
+}
+
+
+
+/* Arrow down */
+.arrow-down {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.arrow-down::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: -350px;
+    left: 0;
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-animation: 2s arrow infinite ease;
+    animation: 3s arrow infinite ease;
+}
+
+@-webkit-keyframes arrow {
+    0%, 100% {
+        top: 50px;
+    }
+    50% {
+        top: 80px;
+    }
+}
+
+@keyframes arrow {
+    0%, 100% {
+        top: 50px;
+    }
+    50% {
+        top: 80px;
+    }
 }
