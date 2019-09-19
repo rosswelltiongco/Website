@@ -11,3 +11,8 @@ WORK HISTORY
 2) grid filterer w/ isotope? masonry? via https://www.youtube.com/watch?v=nkqmbRvUk-w&t=0s
 3) fontawesome
 4) made typer + made it compatible with parallax
+
+fix for overflow projects:
+#projects {
+  height: auto; -> 150vh;
+}
