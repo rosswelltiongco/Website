@@ -1,0 +1,30 @@
+/* Styles */
+/* Parallax image */
+html {
+    height: 100%;
+    overflow: hidden;
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    color: #fff;
+    margin: 0;
+    /* margin-left: -25%; */
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "Luna";
+    background: #333 url('/imgs/keyboard_blurry.jpg') no-repeat center center / cover;
+    /* background-color: #111; */
+    /* FIXME: Background color to change ya know */
+}
+
+img { max-width: 100%; height: auto; }
+
+
+/*
+Old parallax code here
+*/
