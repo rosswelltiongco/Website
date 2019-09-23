@@ -132,3 +132,18 @@ h4.title{
     background-color: #2b90d9;
     color: white;
 }
+
+/* Skill tags */
+@media (min-width: 768px) {
+    .skill-tags {
+      margin-left: 10px
+    }
+  }
+
+.skill-tag {
+    /* background-color: #eceff5; */
+    background-color: #cccfc5;
+    color: black;
+    display: inline-block;
+    padding: 4px 8px;
+  }
